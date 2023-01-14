@@ -2,10 +2,10 @@
 
 Console.Clear();
 Console.WriteLine("Введи число А:");
-String stringValue=Console.ReadLine();
+String stringValue=Console.ReadLine() ?? "";
 int a=Convert.ToInt32(stringValue);
 Console.WriteLine("Введи число B:");
-stringValue=Console.ReadLine();
+stringValue=Console.ReadLine() ?? "";
 int b=Convert.ToInt32(stringValue);
 if (a>b) {
     System.Console.WriteLine($"Число {a} больше чем число {b}");
