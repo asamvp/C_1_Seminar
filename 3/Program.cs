@@ -7,7 +7,7 @@ Console.Clear();
 System.Console.Write("Введите номер дня недели: ");
 String stringValue = Console.ReadLine();
 int value = Convert.ToInt32(stringValue);
-if (value<8)
+if (value<8) 
 {
     string[] week = new string[] {"понедельник","вторник","среда","четверг","УРА, пятница","суббота","воскресенье"};
     System.Console.WriteLine($"День недели для номера {value} - {week[value-1]}");   
